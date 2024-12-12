@@ -1,2 +1,1 @@
-# Bhaskar
-this is for my practice
+hi friends how are you
