@@ -169,3 +169,85 @@
   169  ll
   170  exit
   171  history
+172  ll
+  173  yum install git -y
+  174  yum install maven -y
+  175  git --version
+  176  yum remove git -y
+  177  yum remove maven -y
+  178  ll
+  179  cd/opt/
+  180  cd /opt/
+  181  ll
+  182  rm -rd a
+  183  ll
+  184  rm -rf mylove
+  185  rm -rd b
+  186  ll
+  187  rm -rd chinnu
+  188  ll
+  189  rm -rd pinky
+  190  ll
+  191  touch daddy
+  192  uptime
+  193  vim jenkins
+  194  cp -rp jenkins copy_jenkins
+  195  ll
+  196  vim copy_jenkins
+  197  diff jenkins copy_jenkins
+  198  sdiff jenkins copy_jenkins
+  199  ll
+  200  ls -lrth
+  201  echo "my name is sravya"
+  202  echo "my name is bhaskar" >sravya
+  203  ll
+  204  vim sravya
+  205  echo "my name is sai" >sravya
+  206  ll
+  207  vim sravya
+  208  cat sravya
+  209  echo "my name is bhaskar" >sravya
+  210  cat sravya
+  211  echo "my name is saibhaskar" >>sravya
+  212  cat sravya
+  213  vim sravya
+  214  ll
+  215  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+  216  ll
+  217  unzip apache-tomcat-9.0.98.zip
+  218  ll
+  219  ll apache-tomcat-9.0.98
+  220  rm -rf apache-tomcat-9.0.98.zip
+  221  ll
+  222  zi -r apache.zip apache-tomcat-9.0.98
+  223  zip -r apache.zip apache-tomcat-9.0.98
+  224  ll
+  225  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+  226  ll
+  227  rm -rf apache-tomcat-9.0.98
+  228  rm -rf apache.zip
+  229  ll
+  230  tar -xvf  apache-tomcat-9.0.98.tar.gz
+  231  ll
+  232  ll  apache-tomcat-9.0.98.tar.gz
+  233  ll  apache-tomcat-9.0.98
+  234  rm -rf apache-tomcat-9.0.98.tar.gz
+  235  ll
+  236  tar -xcf  apache-tomcat-9.0.98
+  237  tar -cvf apache-tomcat-9.0.98
+  238  tar -cvf apache.tar apache-tomcat-9.0.98
+  239  ll
+  240  rm -rf apache.tar
+  241  rm -rf  apache-tomcat-9.0.98
+  242  ll
+  243  uptime
+  244  who
+  245  whoami
+  246  top
+  247  free
+  248  free -m
+  249  free -h
+  250  free -g
+  251  lscpu
+  252  ll
+  253  history
