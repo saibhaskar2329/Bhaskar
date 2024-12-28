@@ -1,0 +1,171 @@
+ 1  ll
+    2  hostname
+    3  whoami
+    4  who
+    5  uptime
+    6  hostname -I
+    7  hostnamectl set-hostname "bhaskar_sravya"
+    8  exit
+    9  ll
+   10  touch amma daddy
+   11  mkdir chinnu pinky
+   12  ll
+   13  ls
+   14  ls -lrth
+   15  ls -la
+   16  touch pollard
+   17  mkdir bumarah
+   18  ll
+   19  ls
+   20  rm -rf bumrah
+   21  ll
+   22  rm -rd bumrah
+   23  rm -rd bumarah
+   24  ll
+   25  rm -rf pollard
+   26  ll
+   27  cd chinnu
+   28  touch akshu
+   29  yum install tree -y
+   30  tree
+   31  cd ..
+   32  tree
+   33  ll
+   34  history
+   35  date
+   36  time
+   37  cal
+   38  cal 1996
+   39  cal aril 1996
+   40  cal april 1996
+   41  cal nov 1966
+   42  ll
+   43  ls -lrth
+   44  history
+   45  hostname
+   46  hostname -I
+   47  cd /
+   48  ll
+   49  ll bin
+   50  ll etc
+   51  ll root
+   52  ll home
+   53  ll opt
+   54  cd /opt/
+   55  uptime
+   56  ll
+   57  rm -rf aws
+   58  ll
+   59  ls
+   60  ls -lrth
+   61  ls -la
+   62  ll
+   63  touch amma daddy
+   64  mkdir pinky chinnu
+   65  ll
+   66  touch bhaskar
+   67  mkdir pollard
+   68  ll
+   69  rm -rf bhaskar
+   70  rm -rd pollard
+   71  ll
+   72  cd chinnu
+   73  mkdir sravya
+   74  touch akshu
+   75  ll
+   76  cd sravya
+   77  ll
+   78  touch bhaskar
+   79  ll
+   80  cd /opt/
+   81  ll
+   82  yum install tree -y
+   83  tree
+   84  cp -rp daddy chinnu
+   85  tree
+   86  /opt/daddy /opt/sravya/.
+   87  cp -rp /opt/daddy /opt/sravya/.
+   88  cp -rp /opt/daddy /opt/chinnu/sravya/.
+   89  tree
+   90  mkdir -p a/b/c/d/e
+   91  ll
+   92  ls
+   93  ll a
+   94  ll b
+   95  ls -lrth
+   96  tree
+   97  uptime
+   98  history
+   99  tree
+  100  cp -rp daddy a/b/c/d/.
+  101  tree
+  102  touch pollard
+  103  ll
+  104  cp -rp /opt/pollard /opt/a/b/c/d/e/.
+  105  ll
+  106  tree
+  107  mv /opt/polard /opt/a/b/.
+  108  mv /opt/pollard /opt/a/b/.
+  109  tree
+  110  mv /opt/a/b /opt/.
+  111  tree
+  112  mv /opt/a/b/pollard /opt/.
+  113  touch maxi
+  114  ll
+  115  mv maxi a/b/c/.
+  116  tree
+  117  mv maxi chinnu
+  118  tree
+  119  touch kohli
+  120  ll
+  121  tree
+  122  mv kohli a/b/c/.
+  123  mv kohli a
+  124  tree
+  125  ll
+  126  tree
+  127  ls
+  128  mv daddy mylove
+  129  ll
+  130  ls -lrth
+  131  exit
+  132  ll
+  133  cat /etc/passwd
+  134  useradd bhaskar
+  135  user passwd
+  136  passwd
+  137  ll
+  138  cat /etc/passwd
+  139  useradd pollard
+  140  passwd
+  141  ll
+  142  cat /etc/passwd
+  143  su -pollard
+  144  su --pollard
+  145  su --help
+  146  su - pollard
+  147  su - bhaskar
+  148  ll
+  149  usermod -c "devopsuser" bhaskar
+  150  cat /etc/passwd
+  151  usermod -c "tempuser" pollard
+  152  cat /etc/passwd
+  153  ll
+  154  ll home
+  155  tail -3 /etc/passwd
+  156  head -3 /etc/passwd
+  157  wc /etc/passwd
+  158  wc-l /etc/passwd
+  159  wc -l /etc/passwd
+  160  wc -c /etc/passwd
+  161  wc -w /etc/passwd
+  162  userdel -r pollard
+  163  ll
+  164  history
+  165  uptime
+  166  date
+  167  free
+  168  free -h
+  169  ll
+  170  exit
+  171  history
