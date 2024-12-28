@@ -251,3 +251,74 @@
   251  lscpu
   252  ll
   253  history
+254  vim jenkins
+  255  sed 's/sai/bhaskar/g' jenkins
+  256  sed 's/bhaskar/sai/g' jenkins
+  257  ll
+  258  sed 's/bhaskar/sai/g' jenkins >>copy_jenkins
+  259  vim copy_jenkins
+  260  cat copy_jenkins
+  261  cat jenkins
+  262  pwd
+  263  grep -iR bhaskar
+  264  grep -iR sai
+  265  grep -iR sravya
+  266  ll
+  267  grep -iR bhaskar
+  268  find /-name jenkins
+  269  mkdir -p a/b/c
+  270  ll
+  271  cp -rp jenkins a/b/.
+  272  tree
+  273  cp -rp jenkins a/b/c/.
+  274  tree
+  275  mkdir jenkins
+  276  find /-name jenkins
+  277  find / -name jenkins
+  278  mkdir jenkins
+  279  find / -name copy_jenkins
+  280  uptime
+  281  df
+  282  df -h
+  283  du -sh
+  284  du -sh jenkins
+  285  ll
+  286  chmod 777 sravya
+  287  ll
+  288  chmod 641 daddy
+  289  ll
+  290  cat /etc/passwd
+  291  usermod -aG root bhaskar
+  292  ll
+  293  cat /etc/passwd
+  294  cat /etc/group
+  295  ll
+  296  chown sravya daddy
+  297  ll
+  298  chown akshu daddy
+  299  chown bhaskar daddy
+  300  ll
+  301  exit
+  302  useradd sravya
+  303  asswd
+  304  passwd
+  305  cd /opt/
+  306  ll
+  307  cat /etc/passwd
+  308  usermod -aG root sravya
+  309  ll
+  310  cat /etc/group
+  311  ll
+  312  chown bhaskar:sravya daddy
+  313  ll
+  314  chown sravya:bhaskar sravya
+  315  ll
+  316  ls
+  317  ls -lrth
+  318  uptime
+  319  who
+  320  whoami
+  321  exit
+  322  sudo - bhaskar
+  323  su - bhaskar
+  324  history
