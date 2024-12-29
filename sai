@@ -1,4 +1,6 @@
- 1  ll
+Basic linux commands :
+
+    1  ll
     2  hostname
     3  whoami
     4  who
@@ -42,6 +44,9 @@
    42  ll
    43  ls -lrth
    44  history
+  
+Tree install and practice cp & mv head & tail useradd practice :
+
    45  hostname
    46  hostname -I
    47  cd /
@@ -79,11 +84,15 @@
    79  ll
    80  cd /opt/
    81  ll
+  
+Tree Installation :
    82  yum install tree -y
    83  tree
    84  cp -rp daddy chinnu
    85  tree
    86  /opt/daddy /opt/sravya/.
+   
+Copy command :
    87  cp -rp /opt/daddy /opt/sravya/.
    88  cp -rp /opt/daddy /opt/chinnu/sravya/.
    89  tree
@@ -104,6 +113,8 @@
   104  cp -rp /opt/pollard /opt/a/b/c/d/e/.
   105  ll
   106  tree
+  
+  mv (cut and paste) command :
   107  mv /opt/polard /opt/a/b/.
   108  mv /opt/pollard /opt/a/b/.
   109  tree
@@ -136,6 +147,8 @@
   136  passwd
   137  ll
   138  cat /etc/passwd
+  
+useradd command :
   139  useradd pollard
   140  passwd
   141  ll
@@ -146,12 +159,16 @@
   146  su - pollard
   147  su - bhaskar
   148  ll
+  
+usermod command :
   149  usermod -c "devopsuser" bhaskar
   150  cat /etc/passwd
   151  usermod -c "tempuser" pollard
   152  cat /etc/passwd
   153  ll
   154  ll home
+ 
+Head & Tail commands :
   155  tail -3 /etc/passwd
   156  head -3 /etc/passwd
   157  wc /etc/passwd
@@ -159,6 +176,8 @@
   159  wc -l /etc/passwd
   160  wc -c /etc/passwd
   161  wc -w /etc/passwd
+ 
+userdel command :
   162  userdel -r pollard
   163  ll
   164  history
@@ -169,7 +188,7 @@
   169  ll
   170  exit
   171  history
-172  ll
+  172  ll
   173  yum install git -y
   174  yum install maven -y
   175  git --version
@@ -194,10 +213,14 @@
   194  cp -rp jenkins copy_jenkins
   195  ll
   196  vim copy_jenkins
+  
+Diff & sdiff commands :
   197  diff jenkins copy_jenkins
   198  sdiff jenkins copy_jenkins
   199  ll
   200  ls -lrth
+  
+ Echo commands :
   201  echo "my name is sravya"
   202  echo "my name is bhaskar" >sravya
   203  ll
@@ -212,6 +235,8 @@
   212  cat sravya
   213  vim sravya
   214  ll
+
+wget commands :
   215  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
   216  ll
   217  unzip apache-tomcat-9.0.98.zip
@@ -222,6 +247,8 @@
   222  zi -r apache.zip apache-tomcat-9.0.98
   223  zip -r apache.zip apache-tomcat-9.0.98
   224  ll
+ 
+wget tar commands :
   225  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
   226  ll
   227  rm -rf apache-tomcat-9.0.98
@@ -251,7 +278,9 @@
   251  lscpu
   252  ll
   253  history
-254  vim jenkins
+  254  vim jenkins
+ 
+Sed commands :
   255  sed 's/sai/bhaskar/g' jenkins
   256  sed 's/bhaskar/sai/g' jenkins
   257  ll
@@ -260,11 +289,15 @@
   260  cat copy_jenkins
   261  cat jenkins
   262  pwd
+  
+Grep command :
   263  grep -iR bhaskar
   264  grep -iR sai
   265  grep -iR sravya
   266  ll
   267  grep -iR bhaskar
+  
+Find command :
   268  find /-name jenkins
   269  mkdir -p a/b/c
   270  ll
@@ -283,6 +316,8 @@
   283  du -sh
   284  du -sh jenkins
   285  ll
+  
+  chmod (permission) commands :
   286  chmod 777 sravya
   287  ll
   288  chmod 641 daddy
@@ -293,6 +328,8 @@
   293  cat /etc/passwd
   294  cat /etc/group
   295  ll
+  
+chown (usermodification) commands:
   296  chown sravya daddy
   297  ll
   298  chown akshu daddy
@@ -322,3 +359,110 @@
   322  sudo - bhaskar
   323  su - bhaskar
   324  history
+
+
+ Curl ps netstat tomcat (start and stop) ping hardlink/softlink commands :
+    
+    1  whoami
+    2  who
+    3  ll
+    4  ps
+    5  ps -ef
+    6  ll
+    7  cd /opt/
+    8  ll
+    9  rm -rf aws
+   10  ll
+   11  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+   12  ll
+   13  tar -xvf apache-tomcat-9.0.98.tar.gz
+   14  exit
+   15  hostnamectl set-hostname "chinnu_daddy"
+   16  exit
+   17  cd /opt/
+   18  ll
+   19  java --version
+   20  cd apache-tomcat-9.0.98/
+   21  cd bin/
+   22  ll
+   23  ./startup.sh
+   24  ll
+   25  ps -ef
+   26  history
+   27  cd /opt/
+   28  ll
+   29  ps -ef |grep tomcat
+   30  kill -9 26122
+   31  ps -ef |grep tomcat
+   32  ll
+   33  rm -rf apache-tomcat-9.0.98
+   34  rm -rf apache-tomcat-9.0.98.tar.gz
+   35  ll
+   36  curl https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   37  curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   38  ll
+   39  curl -I google.com
+   40  curl -I facebook.com
+   41  ping www.google.com
+   42  curl www.google.com
+   43  ll
+   44  rm -rf apache-tomcat-9.0.98.zip
+   45  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+   46  ll
+   47  tar -xvf apache-tomcat-9.0.98.tar.gz
+   48  yum remove java -y
+   49  ll
+   50  cd apache-tomcat-9.0.98/bin/
+   51  ll
+   52  yum remove java -y
+   53  ll
+   54  cd /opt/
+   55  ll
+   56  ./ apache-tomcat-9.0.98/bin/startup.sh
+   57  ./apache-tomcat-9.0.98/bin/startup.sh
+   58  yum install java -y
+   59  ./apache-tomcat-9.0.98/bin/startup.sh
+   60  ll
+   61  netstat -an
+   62  netstat -an |grep 8080
+   63  ll
+   64  telnet www.google.com
+   65  yum install telnet -y
+   66  telnet www.google.com
+   67  telnet www.google.com 443
+   68  telnet 44.206.237.158 8080
+   69  top
+   70  htop
+   71  yum install htop -y
+   72  htop
+   73  ll
+   74  rm -rf apache-tomcat-9.0.98
+   75  rm -rf apache-tomcat-9.0.98.tar.gz
+   76  ll
+   77  vim amma
+   78  ln amma amma2
+   79  ll
+   80  cat amma
+   81  cat amma2
+   82  vim amma2
+   83  cat amma2
+   84  cat amma
+   85  ll
+   86  rm -rf amma
+   87  ll
+   88  cat amma2
+   89  cat pinky
+   90  vim pinky
+   91  ln -s pinky pinky2
+   92  ll
+   93  cat pinky
+   94  cat pinky2
+   95  vim pinky2
+   96  cat pinky2
+   97  cat pinky
+   98  rm -rf pinky
+   99  ll
+  100  cat pinky2
+  101  ll
+  102  uptime
+  103  history
