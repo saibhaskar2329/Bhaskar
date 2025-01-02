@@ -466,3 +466,110 @@ chown (usermodification) commands:
   101  ll
   102  uptime
   103  history
+26 dec :
+ 1  hostnamectl set-hostname "bhaskar_akshu"
+    2  exit
+    3  ps
+    4  ps -ef
+    5  ll
+    6  cd /opt/
+    7  ps -ef
+    8  ll
+    9  rm -rf aws
+   10  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+   11  tar -xvf apache-tomcat-9.0.98.tar.gz
+   12  yum install java -y
+   13  ll
+   14  cd apache-tomcat-9.0.98/
+   15  ll
+   16  cd bin/
+   17  ll
+   18*
+   19  ps -ef
+   20  ps -ef tomcat
+   21  ps -ef |grep tomcat
+   22  kill -9 25940
+   23  ll
+   24  ps -ef |grep tomcat
+   25  ./startup.sh
+   26  ps -ef |grep tomcat
+   27  sh shutdown.sh
+   28  ps -ef |grep tomcat
+   29  ll
+   30  cd /opt/
+   31  curl https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   32  curl -o https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   33  curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   34  ll
+   35  rm -rf *
+   36  curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.zip
+   37  ll
+   38  unzip apache-tomcat-9.0.98.zip
+   39  ll
+   40  curl -I www.google.com
+   41  curl -m 10 www.google.com
+   42  ping www.google.com
+   43  ./apache-tomcat-9.0.98/bin/startup.sh
+   44  . / apache-tomcat-9.0.98/bin/startup.sh
+   45  . /apache-tomcat-9.0.98/bin/startup.sh
+   46  sh /apache-tomcat-9.0.98/bin/startup.sh
+   47  sh / /apache-tomcat-9.0.98/bin/startup.sh
+   48  netstat -an
+   49  netstat -an |grep 8080
+   50  rm -rf *
+   51  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+   52  ll
+   53  tar -xvf apache-tomcat-9.0.98.tar.gz
+   54  yum install java -y
+   55  ll
+   56  ./apache-tomcat-9.0.98/bin/startup.sh
+   57  ps -ef |grep tomcat
+   58  netstat -an
+   59  netstat -an |grep 8080
+   60  ./apache-tomcat-9.0.98/bin/shutdown.sh
+   61  netstat -an |grep 8080
+   62  top
+   63  telnet www.google.com 443
+   64  yum install telnet -y
+   65  telnet www.google.com 443
+   66  telnet http://3.83.54.150 8080
+   67  ./apache-tomcat-9.0.98/bin/startup.sh
+   68  telnet http://3.83.54.150 8080
+   69  telnet 3.83.54.150 8080
+   70  ./apache-tomcat-9.0.98/bin/hutdown.sh
+   71  ./apache-tomcat-9.0.98/bin/shutdown.sh
+   72  telnet 3.83.54.150 8080
+   73  top
+   74  htop
+   75  yum install htop -y
+   76  htop
+   77  iostat
+   78  lscpu
+   79  free -g
+   80  touch daddy
+   81  ll
+   82  du -sh daddy
+   83  vim daddy
+   84  ll
+   85  du -sh daddy
+   86  du -sh apache-tomcat-9.0.98
+   87  ln daddy daddy1
+   88  ll
+   89  vim daddy1
+   90  cat daddy1
+   91  cat daddy
+   92  rm -rf daddy
+   93  ll
+   94  cat daddy1
+   95  touch jenkins
+   96  ln -s jenkins jenkins1
+   97  ll
+   98  vim jenkins
+   99  ll
+  100  cat jenkins
+  101  cat jenkins1
+  102  rm -rf jenkins
+  103  ll
+  104  cat jenkins1
+  105  uptime
+  106 History
