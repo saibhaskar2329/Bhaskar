@@ -56,7 +56,8 @@ Commands practice :
    53  ./shellpractice.sh
    54  tree
    55  history
- Script practiced :
+ 
+Script practiced : Manual ga dircories and files create cheyyataki
  #/bin/bash
  #
  ###################################################################
@@ -81,7 +82,8 @@ Commands practice :
  touch ec2
  touch route53
 
-Script with dynamic variable :
+Script with dynamic variable : Suppose manaki 50 members crete chesthunaru evaru creating dhaanikosam variable name isthamu ante bhaskar create chesthe bhaskar name 
+                               sravya chesthe name ala name tho files and dir create avvuthayi .
 
 #/bin/bash
  #
@@ -115,7 +117,7 @@ Script to install and start tomcat :
 #/bin/bash
 #
 ################################################
-# To set up tomcat
+# To set up tomcat : Automatic ga tomcat dowwnload ayyi run ayyidhi script dwara
 cd /opt
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
 sudo tar -xvf /opt/apache-tomcat-9.0.98.tar.gz
