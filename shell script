@@ -1,94 +1,113 @@
-  1  ll
-    2  hostnamectl set-hostname "bhaskar_akshu"
-    3  exit
-    4  ll
-    5  cd /opt/
-    6  ll
-    7  rm -rf *
-    8  ll
-    9  mkdir daddy
-   10  cd daddy
-   11  touch amma pinky chinnu
-   12  mkdir sravya
-   13  cd sravya
-   14  touch akshu bhaskar
-   15  ll
-   16  cd /opt/
-   17  yum install tree -y
-   18  tree
-   19  vim devospractice.sh
-   20  ll
-   21  ./devopspractice.sh
-   22  ./ devopspractice.sh
-   23  ./devospractice.sh
-   24  vi devospractice.sh
-   25  vim devopspractice.sh
-   26  ll devopspractice.sh
-   27  chmod 700 devopspractice.sh
-   28  ll
-   29  cat devopspractice.sh
-   30  ./devopspractice.sh
-   31  tree
-   32  sh devopspractice.sh
-   33  vim devopspractice.sh
-   34  ll
-   35  rm -rf *
+30 dec :
+Commands practice :
+
+1  hostnamectl set-hostname "bhaskar"
+    2  exit
+    3  ll
+    4  cd /opt/
+    5  ll
+    6  rm -rf aws
+    7  ll
+    8  mkdkir bhaskar
+    9  mkdkir sai
+   10  mkdir bhaskar
+   11  touch git maven jenkins linux docker
+   12  ll
+   13  mkdir aws
+   14  ll
+   15  cd aws
+   16  touch ec2
+   17  touch s3
+   18  touch route53
+   19  ll
+   20  cd /opt/
+   21  yum install tree -y
+   22  ll
+   23  tree
+   24  cd bhaskar
+   25  touch k8s terraform
+   26  cd /opt/
+   27  tree
+   28  vim shellpractice.sh
+   29  ./shellpractice.sh
+   30  ll
+   31  cat shellpractice.sh
+   32  chmod 777 shellpractice.sh
+   33  ll
+   34  ./shellpractice.sh
+   35  tree
    36  ll
-   37  vim devopspractice.sh
-   38  cat devopspractice.sh
-   39  ll
-   40  chmod 700 devopspractice.sh
-   41  ll
-   42  sh devopspractice.sh
+   37  rm -rf aws
+   38  rm -rf bhaskar
+   39  rm -rf chinnu
+   40  ll
+   41  rm -rf docker git jenkins linux maven
+   42  ll
    43  tree
-   44  vim devopspractice.sh
-   45  rm -rf*
-   46  vim devopspractice.sh
-   47  ll
-   48  rm -rf *
-   49  ll
-   50  vim devopspractice.sh
-   51  cat devopspractice.sh
-   52  sh devopspractice.sh
-   53  tree
-   54  ll
-   55  rm -rf *
-   56  ll
-   57  vim devopspractice.sh
-   58  ll
-   59  /.devopspractice.sh
-   60  ./devopspractice.sh
-   61  chmod 700 devopspractice.sh
-   62  ll
-   63  cat devopspractice.sh
-   64  ./devopspractice.sh
-   65  tree
-   66  vim devopspractice.sh
-   67  ./devopspractice.sh
-   68  vim devopspractice.sh
-   69  ./devopspractice.sh
-   70  ll
-   71  tree
-   72  rm -rf *
-   73  vim devopspractice.sh
-   74  cat devopspractice.sh
-   75  ll
-   76  chmod 700 devopspractice.sh
-   77  ll
-   78  ./devopspractice.sh
-   79  tree
-   80  vim devopspractice.sh
-   81  ll
-   82  vim devopspractice.sh
-   83  ./devopspractice.sh
-   84  tree
-   85  vim devopspractice.sh
-   86  ./devopspractice.sh
-   87  ll
-   88  cat devopspractice.sh
-   89  tree
-   90  vim devopspractice.sh
-   91  ./devopspractice.sh
-   92  tree
-   93  uptime
-   94  history
+   44  ./shellpractice.sh
+   45  tree
+   46  vim shellpractice.sh
+   47  ./shellpractice.sh
+   48  tree
+   49  vim shellpractice.sh
+   50  ./shellpractice.sh
+   51  tree
+   52  ll
+   53  ./shellpractice.sh
+   54  tree
+   55  history
+ Script practiced :
+ #/bin/bash
+ #
+ ###################################################################
+ #
+ #Autho: Chinnu
+ #purpose: shell practice
+ #Date : 03/01/2025
+
+ ####################################################################
+
+
+ mkdir name
+ cd name
+ touch git
+ touch maven
+ touch jenkins
+ touch docker
+ touch linux
+ mkdir aws
+ cd aws
+ touch s3
+ touch ec2
+ touch route53
+
+Script with dynamic variable :
+
+#/bin/bash
+ #
+ ###################################################################
+ #
+ #Autho: Chinnu
+ #purpose: shell practice
+ #Date : 03/01/2025
+
+ ####################################################################
+
+ echo "enter the devops engineer name"
+
+ read name
+
+ mkdir $name
+ cd $name
+ touch git
+ touch maven
+ touch jenkins
+ touch docker
+ touch linux
+ mkdir aws
+ cd aws
+ touch s3
+ touch ec2
+ touch route53
+
+
