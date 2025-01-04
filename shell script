@@ -124,6 +124,270 @@ sudo tar -xvf /opt/apache-tomcat-9.0.98.tar.gz
 sudo yum install java -y
 sudo /opt/apache-tomcat-9.0.98/bin/startup.sh
 
+Jan 1st :
 
+commands :
+ 1  ll
+    2  hostnamectl set-hostname "bhaskar_amma"
+    3  exit
+    4  ll
+    5  cd /opt/
+    6  ll
+    7  vim variable.sh
+    8  sh variable.sh
+    9  tree
+   10  vim varaible.sh
+   11  ll
+   12  rm -rf varaible
+   13  vim variable.sh
+   14  uptime
+   15  echo$?
+   16  ll
+   17  ls variable.sh
+   18  echo$?
+   19  echo $?
+   20  ls variable.sh
+   21  echo $?
+   22  ls sachin
+   23  echo $?
+   24  vim tomcat.sh
+   25  sh tomcat.sh
+   26  vim tomcat.sh
+   27  sh tomcat.sh
+   28  ll
+   29  chmod 700 tomcat.sh
+   30  sh tomcat.sh
+   31  vim tomcat.sh
+   32  sh tomcat.sh
+   33  ps -ef |grep tomcat
+   34  sh tomcat.sh
+   35  vim tomcat.sh
+   36  ll
+   37  rm -rf apache-tomcat-9.0.98
+   38  rm -rf apache-tomcat-9.0.98.tar.gz
+   39  rm -rf apache-tomcat-9.0.98.tar.gz.1
+   40  rm -rf apache-tomcat-9.0.98.tar.gz.1.2
+   41  rm -rf apache-tomcat-9.0.98.tar.gz.1.3
+   42  rm -rf apache-tomcat-9.0.98.tar.gz.1.4
+   43  ll
+   44  rm -rf  apache-tomcat-9.0.98.tar.gz.2
+   45  ll
+   46  rm -rf *
+   47  ll
+   48  vim add.sh
+   49  vim practice.sh
+   50  ll
+   51  chmod 700 add.sh practice.sh
+   52  ll
+   53  sh practice.sh Bhaskar Aws
+   54  vim practice.sh
+   55  sh practice.sh
+   56  sh practice.sh bhaskar
+   57  tree
+   58  sh practice.sh
+   59  tree
+   60  vim add.sh
+   61  sh add.sh
+   62  vim add.sh
+   63  bash -x add.sh
+   64  bash -x add.sh 5 6
+   65  vim add.sh
+   66  bash -x add.sh 5 6
+   67  vim add.sh
+   68  bash -x add.sh 5 6
+   69  vim add.sh
+   70  bash -x add.sh 5 6
+   71  vim add.sh
+   72  bash -x add.sh 5 6
+   73  uptime
+   74  history
+Scripts :
+[root@serv1 opt]# cat devopsengineer.sh
+
+#!/bin/bash
+
+##############################################
+# AUTHOR: MADHU
+# DATE: 1 JAN 2024
+#
+########################################
+
+set -x
+set -e
+cd /opt
+echo "ENTER THE NAME OF THE DEVOPS ENGINNER"
+read name
+
+mkdir $name
+cd name
+
+touch linux jenkins maven docker k8s
+mkdir aws
+cd aaws
+touch ec2 route53 s3
+
+
+=========================================================================================
+[root@serv1 opt]#
+[root@serv1 opt]#
+[root@serv1 opt]# cat 2-devopsengineer.sh
+
+#!/bin/bash
+
+##############################################
+# AUTHOR: MADHU
+# DATE: 1 JAN 2024
+#
+########################################
+
+set -x
+set -e
+cd /opt
+echo "ENTER THE NAME OF THE DEVOPS ENGINNER"
+mkdir $1
+cd $1
+
+touch linux jenkins maven docker k8s
+mkdir aws
+cd aaws
+touch ec2 route53 s3
+
+
+===========================================================================
+
+[root@serv1 opt]# cat tomcat.sh
+#!/bin/bash
+
+#To setup tomcat
+#set -x
+set -e
+
+yum install java -y
+cd /opt
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+sudo tar -xvf /opt/apache-tomcat-9.0.98.tar.gz
+sudo /opt/apache-tomcat-9.0.98/bin/startup.sh
+
+
+echo "TOOMCAT PROCESS ID IS: "
+ps -ef | grep tomcat | awk -F" " '{print $2}' | head -1
+
+
+=============================================================================
+
+[root@serv1 opt]# cat sum.sh
+#!/bin/bash
+
+
+echo "ENTER THE FIRST NUMBER"
+read num1
+
+echo "ENTER THE SECOND NUMBER"
+read num2
+
+sum=$((num1 + num2))
+
+echo "sum of two numbers is $sum"
+
+
+=====================================================================
+[root@serv1 opt]# cat 2-sum.sh
+#!/bin/bash
+
+
+num1=$1
+num2=$2
+
+sum=$((num1 + num2))
+
+echo "sum of two numbers is $sum"
+
+
+====================================================================
+
+[root@serv1 opt]# cat positionalargs.sh
+
+#!/bin/bash
+
+echo "The name of this script is: $0"
+echo "The first argument is: $1"
+echo "The second argument is: $2"
+echo "Number of arguments passed: $#"
+echo "All the arguments passed - as SINGLE word: $*"
+echo "All the arguments passed - as individual words: $@"
+echo "Exit status is: $?"
+
+======================================
+
+
+WHAT IS SHELL SCRIPT & WHY SHELL SCRIPT ?
+
+A shell script is a file with a set of shell commands , for Automation of Repetetive tasks .
+
+What is a variable ?
+
+a variable is a charecter string to which we assign a value. The value assigned could be a number , text , filename , device or any other type of Data .  Simply its a pointer / reference to actual data .
+
+
+SHELL SCRIPTING -  AUTOMATION
+
+===================================
+HASH-BANG  OR SHEBANG
+
+#!/bin/bash
+#!/bin/sh
+#!/bin/dash
+
+
+The shebang line, 
+starts with #! followed by the path to the interpreter that should be used to execute the script. 
+
+
+bash
+
+#!/bin/bash
+
+==========================================
+
+==================================================
+
+Debugging / Troubleshooting :
+ 
+
+set -x  
+    Turn on debugging.prints each command before it is executed.
+
+set +x  
+    Turn off debugging
+	
+--------
+set -e  
+    Exit on error , Useful for error handling; exits the script immediately if any command fails.
+
+   Causes the script to exit immediately if any command exits with a non-zero status (indicating an error).
+	
+	
+====================================================================
+
+====================================================================
+
+JENKINS INSTALLATION SCRIPT :
+vim jenkins.sh 
+
+
+#!/bin/bash 
+sudo yum update –y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key	
+
+sudo yum upgrade
+sudo dnf install java-17-amazon-corretto -y
+sudo yum install jenkins -y
+sudo systemctl enable jenkins
+sudo systemctl start jenkins 
+
+
+=====================================================================
 
 
